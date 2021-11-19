@@ -1,4 +1,7 @@
-on: [push]
+name: Build and Test
+
+on:
+  push:
 
 jobs:
   hello_world_job:
